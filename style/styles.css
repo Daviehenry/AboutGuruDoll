@@ -76,6 +76,7 @@ section {
 }
 
 .home {
+    min-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,6 +209,7 @@ span {
 }
 
 .team-content h2 {
+    min-width: 100%;
     font-size: 4.1rem;
     text-align: center;
     color: #ffffff;
