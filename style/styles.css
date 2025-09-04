@@ -24,7 +24,7 @@ html {
 }
 
 body {
-    font-size: 16px;
+    font-size: 6px;
     background:rgb(4, 4, 20) ;
     color: #ffffff;
 }
@@ -36,20 +36,22 @@ section {
 
 .header {
     position: fixed;
+    
     top: 0;
     left: 0;
-    width: 100%;
-    padding: 2rem 9%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    padding:1rem 9%;
+
     background: rgb(4, 4, 20);
     z-index: 1000;
       
 }
 
 .logo {
-    width: 10%;
+    width: 1%;
     font-size: 1rem;
     color: #ffffff;
     font-weight: 700;
@@ -165,7 +167,7 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-width: 100%;
+    
     gap: 5rem;
     padding-top: 12rem;
 }
