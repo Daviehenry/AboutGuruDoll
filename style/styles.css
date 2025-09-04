@@ -126,8 +126,7 @@ section {
 }
 
 .home {
-    line-height: 3.0;
-    padding: 5rem;
+    padding: 1rem;
     min-width: 100%;
     display: flex;
     justify-content: center;
