@@ -261,7 +261,7 @@ span {
 }
 
 .team-content h2 {
-    min-width: 100%;
+    padding-top: 12rem;
     font-size: 4.1rem;
     text-align: center;
     color: #ffffff;
@@ -271,20 +271,20 @@ span {
 
 .inline {
     text-align: center;
+
 }
 .wrap {
     display: inline-block;
-    margin: 0 14%;
+    margin: 1rem 10%;
 }
 
 .team-content img {
     margin-top: 3rem;
     margin-bottom: 2rem;
-    width: 22rem;
-    height: 22rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 42%;
     object-fit: scale-down;
-    transition: .5s ease;
 }
 
 .team-content p {
