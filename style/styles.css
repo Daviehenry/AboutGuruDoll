@@ -240,15 +240,13 @@ span {
     background-image: linear-gradient(90deg,rgba(5, 0, 0, 1) 0%, rgb(22, 22, 63) 82%, rgba(250, 250, 250, 0.034) 100%);
     border-radius: 26px;
     box-shadow: 10px 10px 5px rgb(4, 2, 37) inset;
-    margin-inline-start: 10rem;
-    margin-inline-end: 10rem;
-    padding: 20px;;
+    padding: 20px;
     margin-bottom: 30px;
 }
 .about-content p {
     margin-top: 1rem;
     font-size: 1.8rem;
-    padding:1rem 4%;
+    padding:1rem 9%;
     max-width: 1200px;
     color: #ffffff;
     margin-bottom: 1rem;
