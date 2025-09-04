@@ -35,7 +35,6 @@ section {
 }
 
 .header {
-    min-width: 100%;
       position: fixed;
       top: 0;
       left: 0;
@@ -58,10 +57,11 @@ section {
     cursor: default;
 }
 
-.navbar a {
+.navbar a {flex-direction: column-reverse;
+min-width: 100%;
     font-size: 1.6rem;
     color: #ffffff;
-    margin-left: 3.4rem;
+    margin-left: 2.4rem;
     font-weight: 700;
 }
 
@@ -70,7 +70,8 @@ section {
     color: rgb(255, 255, 255);
 }
 
-#menu-icon {
+#menu-icon {flex-direction: column-reverse;
+
     font-size: 5rem;
     color: rgb(255, 255, 255);
     display: none;
