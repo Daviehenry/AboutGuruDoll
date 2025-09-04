@@ -35,18 +35,17 @@ section {
 }
 
 .header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 10rem;
-      width: 100%;
-      padding: 2rem 9%;
-      background:rgb(4, 4, 20);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 100;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(4, 4, 20);
+    z-index: 1000;
+      
 }
 
 .logo {
