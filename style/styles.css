@@ -50,7 +50,7 @@ section {
 }
 
 .logo {
-    width: 16%;
+    width: 14%;
     color: #ffffff;
     cursor: default;
 }
@@ -219,7 +219,7 @@ span {
 }
 
 .about-content h2 {
-    font-size: 4.1rem;
+    font-size: 3rem;
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -274,7 +274,7 @@ span {
 
 .team-content h2 {
     padding-top: 12rem;
-    font-size: 4.1rem;
+    font-size: 3rem;
     text-align: center;
     color: #ffffff;
     font-weight: 700;
