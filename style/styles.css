@@ -529,7 +529,7 @@ fieldset {
 .fs-checkbox,
 .fs-radio {
   background-color: #fff;
-  border: 1px solid var(--color-text-default);
+  border: 1px green solid;
   height: 1rem;
   width: 1rem;
 }
@@ -561,7 +561,7 @@ fieldset {
 
 .fs-checkbox:focus-visible,
 .fs-radio:focus-visible {
-  outline: 3px solid var(--color-highlight);
+  outline: 3px solid pink;
   outline-offset: 0;
 }
 
@@ -620,19 +620,6 @@ fieldset {
   outline-offset: 2px;
 }
 
-.fs-switch {
-  background-color: var(--color-background-alt);
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
-  background-position: left center;
-  background-repeat: no-repeat;
-  border-radius: 1.5rem;
-  cursor: pointer;
-  height: 1.5rem;
-  transition-duration: 200ms;
-  transition-property: background-color, background-position;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  width: 2.75rem;
-}
 
 .fs-switch:checked {
   background-color: var(--color-primary);
