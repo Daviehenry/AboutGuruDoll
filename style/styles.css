@@ -481,7 +481,7 @@ fieldset {
   appearance: none;
   border-radius: 0.375rem;
   border-width: 0;
-  box-shadow: var(--color-border-default) 0 0 0 1px inset;
+  box-shadow: purple 0 0 0 1px inset;
   color: var(--color-text-default);
   font-size: 1.5rem;
   height: 2.5rem;
@@ -493,7 +493,7 @@ fieldset {
 
 .fs-input:focus-visible,
 .fs-select:focus-visible {
-  box-shadow: var(--color-border-active) 0 0 0 1.5px inset;
+  box-shadow: purple 0 0 0 1.5px inset;
   outline: 3px solid var(--color-highlight);
   outline-offset: 0;
 }
@@ -657,7 +657,7 @@ fieldset {
 }
 
 .fs-textarea:focus-visible {
-  box-shadow: var(--color-border-active) 0 0 0 1.5px inset;
+  box-shadow: purple 0 0 0 1.5px inset;
   outline: 3px solid var(--color-highlight);
   outline-offset: 0;
 }
