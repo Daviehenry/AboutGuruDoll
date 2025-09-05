@@ -347,11 +347,21 @@ footer {
 
 }
 
-body {
-  -webkit-font-smoothing: antialiased;
-  font-family: var(--font-family-body);
-  font-optical-sizing: auto;
-  font-style: normal;
+.contact {
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(240deg,purple 0%, rgba(36, 7, 31, 0.719) 100%);
+    padding-top: 12rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    display: grid;
+    line-height: 1.8;
+    font-family: 'Nunito', sans-serif;
+    font-family: var(--font-family-body);
 }
 
 button,
@@ -367,7 +377,7 @@ textarea {
   line-height: inherit;
   color: inherit;
   margin: 0;
-  padding: 0;
+  padding: 1rem 11%;
 }
 
 [type="checkbox"],
@@ -389,7 +399,6 @@ textarea {
 
 .fs-form {
   margin-top: 2rem;
-  padding: 1rem 15%;
   display: grid;
   row-gap: 2.5rem;
 }
@@ -418,7 +427,6 @@ fieldset {
   font-weight: 500;
   line-height: 1.75rem;
   margin-bottom: 1.5rem;
-  grid-column: 1 / -1;
 }
 
 .fs-field {
@@ -462,6 +470,7 @@ fieldset {
   font-weight: 500;
   line-height: 1rem;
   padding: 1rem 2rem;
+  margin-top: 4rem;
   transition-duration: 200ms;
   transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -486,9 +495,8 @@ fieldset {
   font-size: 1.5rem;
   height: 2.5rem;
   line-height: 1.5rem;
-  outline: none;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+
+
 }
 
 .fs-input:focus-visible,
@@ -529,7 +537,7 @@ fieldset {
 .fs-checkbox,
 .fs-radio {
   background-color: #fff;
-  border: 1px green solid;
+  border: 1px solid var(--color-text-default);
   height: 1rem;
   width: 1rem;
 }
@@ -561,7 +569,7 @@ fieldset {
 
 .fs-checkbox:focus-visible,
 .fs-radio:focus-visible {
-  outline: 3px solid pink;
+  outline: 3px solid var(--color-highlight);
   outline-offset: 0;
 }
 
@@ -620,6 +628,19 @@ fieldset {
   outline-offset: 2px;
 }
 
+.fs-switch {
+  background-color: var(--color-background-alt);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
+  background-position: left center;
+  background-repeat: no-repeat;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  height: 1.5rem;
+  transition-duration: 200ms;
+  transition-property: background-color, background-position;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 2.75rem;
+}
 
 .fs-switch:checked {
   background-color: var(--color-primary);
@@ -637,7 +658,7 @@ fieldset {
   border-width: 0;
   color: black;
   font-size: 1.5rem;
-  line-height: 6.5rem;
+  line-height: 5.5rem;
   outline: none;
   padding: 0.5rem 0.75rem;
   resize: vertical;
