@@ -350,7 +350,7 @@ footer {
 .contact {
     min-width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(240deg,purple 0%, rgba(36, 7, 31, 0.719) 100%);
+    background-image: repeating-linear-gradient(240deg,rgba(5, 0, 0, 1) 0%, rgb(11, 6, 59) 100%);
     padding-top: 12rem;
     padding-left: 20%;
     padding-right: 20%;
@@ -377,7 +377,6 @@ textarea {
   line-height: inherit;
   color: inherit;
   margin: 0;
-  padding: 1rem 11%;
 }
 
 [type="checkbox"],
@@ -495,8 +494,7 @@ fieldset {
   font-size: 1.5rem;
   height: 2.5rem;
   line-height: 1.5rem;
-
-
+  text-align: center;
 }
 
 .fs-input:focus-visible,
